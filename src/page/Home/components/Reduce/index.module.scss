@@ -1,0 +1,21 @@
+.root {
+  text-algin: center;
+  padding-top: 20px;
+
+  :global {
+    .top-button {
+      display: flex;
+      text-align: left;
+      .m-l-10 {
+        margin-left: 10px;
+      }
+    }
+
+    .content {
+      text-align: left;
+      padding: 10px 0px 0px 10px;
+    }
+
+
+  }
+}
